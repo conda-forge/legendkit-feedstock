@@ -1,13 +1,13 @@
 {% set name = "legendkit" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/legendkit-{{ version }}.tar.gz
-  sha256: 38d3e2628cdfad1dc07656c79e2b83bd43631e02359fbeea9be12e450c5d3b87
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/legendkit-{{ version }}.tar.gz
+  sha256: d590d514f46e599c3baffeb86fcb5308640d985a46ea626314f45859b262bed9
 
 build:
   noarch: python
